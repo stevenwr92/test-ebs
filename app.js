@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const test = process.env.TEST
+const test = process.env.TESTING
 app.get('/', (req, res) => {
   res.send(`Hello, World! ${test}`);
 });
